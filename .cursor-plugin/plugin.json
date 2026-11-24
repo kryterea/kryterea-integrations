@@ -1,0 +1,17 @@
+{
+  "name": "kryterea",
+  "version": "0.1.0",
+  "description": "Connect Cursor to the Kryterea MCP staging pilot.",
+  "author": { "name": "Kryterea" },
+  "homepage": "https://kryterea.com",
+  "repository": "https://github.com/kryterea/kryterea-integrations",
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KRYTEREA_MCP_URL": { "type": "string", "title": "Kryterea MCP URL" },
+      "KRYTEREA_CURSOR_CLIENT_ID": { "type": "string", "title": "Cursor OAuth client ID" }
+    },
+    "required": ["KRYTEREA_MCP_URL", "KRYTEREA_CURSOR_CLIENT_ID"]
+  }
+}
