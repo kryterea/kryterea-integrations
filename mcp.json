@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kryterea": {
+      "url": "${KRYTEREA_MCP_URL}",
+      "auth": {
+        "CLIENT_ID": "${KRYTEREA_CURSOR_CLIENT_ID}",
+        "scopes": ["openid", "offline_access"]
+      }
+    }
+  }
+}
